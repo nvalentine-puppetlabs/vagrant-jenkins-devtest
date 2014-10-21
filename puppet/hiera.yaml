@@ -1,0 +1,10 @@
+---
+:backends:
+  - yaml
+
+:yaml:
+  :datadir: /vagrant/puppet/data
+
+:hierarchy:
+  - "clientcert/%{::clientcert}"
+  - common

@@ -1,0 +1,5 @@
+---
+force_noop: false
+
+classes:
+  - site::profile::base

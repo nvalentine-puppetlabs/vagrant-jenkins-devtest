@@ -1,0 +1,6 @@
+---
+vms:
+- name: ci0
+  box: ubuntu/trusty64
+  roles:
+  - pe-puppet-agent

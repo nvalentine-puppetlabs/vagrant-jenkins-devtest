@@ -1,0 +1,12 @@
+*.swp
+.vagrant
+.pe_build
+puppet/Puppetfile.lock
+puppet/.librarian
+puppet/modules
+puppet/.tmp
+Gemfile.lock
+.ruby_version
+;
+.librarian
+.tmp

@@ -1,0 +1,10 @@
+---
+roles:
+  pe-puppet-agent:
+    provisioners:
+      - {type: hosts}
+      - {type: pe_bootstrap, answer_file: 'config/nomaster.txt'}
+      - {type: shell, inline: '/bin/ln -f -s /opt/puppet/bin/puppet /usr/bin/puppet'}
+      - {type: puppet, module_path: puppet/modules, manifest_file: site.pp, manifests_path: puppet/manifests, options: '--hiera_config /vagrant/puppet/hiera.yaml --debug'}
+
+

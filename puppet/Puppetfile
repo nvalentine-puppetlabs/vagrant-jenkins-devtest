@@ -1,0 +1,11 @@
+forge 'https://forgeapi.puppetlabs.com'
+
+mod 'puppetlabs/stdlib', '>=4.3.2'
+mod 'nrvale0/multi_validate_re', '>=0.1.1'
+mod 'trlinkin/noop', '>=0.0.2'
+
+mod 'rtyler/jenkins', '>=1.2.0'
+
+mod 'nrvale0/site',
+  :git => 'git@github.com:nrvale0/puppet-site',
+  :ref => 'master'
